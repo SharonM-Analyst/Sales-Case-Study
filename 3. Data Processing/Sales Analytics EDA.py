@@ -239,7 +239,7 @@ df_clean['Gross Profit per Unit'] = (df_clean['Average Selling Price'] - df_clea
 df_clean['Gross Profit Margin per Unit (%)'] = (df_clean['Gross Profit per Unit'] / df_clean['Average Selling Price']) * 100
 
 # Preview new KPIs
-display(df_clean[['Sales', 'Cost Of Sales', 'Quantity Sold', 'Gross Profit', 'Profit Margin (%)', 'Average Selling Price', 'Cost per Unit']].head(5))
+display(df_clean[['Sales', 'Cost Of Sales', 'Quantity Sold', 'Gross Profit', 'Gross Profit Margin (%)', 'Average Selling Price', 'Cost per Unit']].head(5))
 
 # COMMAND ----------
 
