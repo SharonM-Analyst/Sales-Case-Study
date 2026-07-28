@@ -516,3 +516,16 @@ display(price_elasticity_summary)
 # COMMAND ----------
 
 display(df_clean.tail (5))
+
+
+# COMMAND ----------
+
+df_clean.to_csv('Sales_Processed.csv', index=False)
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # Section 5 Visualization
+
+# COMMAND ----------
+
