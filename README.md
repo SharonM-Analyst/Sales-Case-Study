@@ -1,7 +1,7 @@
 <!-- MLOps Workflow -->
 <p align="center">
   <a href="FNB_Sales_workflow.html">
-    <img src="https://img.shields.io/badge/MLOps%20Workflow-Bank Fraud Detection-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/MLOps%20Workflow-Sales Prediction Model-blue?style=for-the-badge" />
   </a>
 </p>
 
