@@ -7,4 +7,5 @@
 
 This is the official repository of the Bank Fraud Detection Model End-to-End MLOps Pipeline by Sharon (Shanay) Mathebula.
 
-![Sale Anlytics Workflow](https://github.com/SharonM-Analyst/Bank-Fraud-Detection/blob/6e7b483b5b061be774355510f4398485a6e5ae79/0.%20ELT%20Pipeline/1.%20Architecture/Untitled%20Diagram.gif)
+![Sale Anlytics Workflow]([
+](https://github.com/SharonM-Analyst/Sales-Case-Study/blob/07ec5f40202a0ec55ce003b448e9a243c6bef31a/2.%20Project%20Planning/sales_case_study_pipeline_flowchart.png)
