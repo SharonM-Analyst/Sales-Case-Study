@@ -1528,33 +1528,3 @@ fig = px.scatter(
 )
 
 fig.show()
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC #Sales Prediction Model
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC - Install Pycaret Library
-
-# COMMAND ----------
-
-pip install pycaret
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ## Data Loading
-
-# COMMAND ----------
-
-model_df= df_clean.copy()
-
-# COMMAND ----------
-
-from pycaret.tasks import RegressionExperiment
-
-exp = RegressionExperiment(target="medv", session_id=42, n_jobs=1).fit(model_df)
-exp.X_train.shape, exp.X_test.shape
